@@ -1,8 +1,6 @@
 docker-base-image
 =================
 
-Docker base image
-
 Pull the pre-built Docker image from the Docker registry
 ----------------------------------------------------------------
 
