@@ -2,7 +2,7 @@ docker-base-image
 =================
 
 Pull the pre-built Docker image from the Docker registry
-----------------------------------------------------------------
+--------------------------------------------------------
 
     $ docker pull simpledrupalcloud/base-image
 
