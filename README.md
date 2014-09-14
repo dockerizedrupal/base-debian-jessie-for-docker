@@ -1,9 +1,9 @@
-docker-base-image
-=================
+docker-base
+===========
 
 Build the image
 ---------------
 
     sudo docker build \
-      -t simpledrupalcloud/base-image \
-      http://git.simpledrupalcloud.com/simpledrupalcloud/docker-base-image.git
+      -t simpledrupalcloud/base \
+      http://git.simpledrupalcloud.com/simpledrupalcloud/docker-base.git
