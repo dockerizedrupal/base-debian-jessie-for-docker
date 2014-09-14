@@ -1,4 +1,4 @@
-FROM simpledrupalcloud/supervisor
+FROM simpledrupalcloud/openssh-server
 
 MAINTAINER Simple Drupal Cloud <support@simpledrupalcloud.com>
 
