@@ -4,6 +4,9 @@ class base::packages {
   }
 
   package {[
+      'unzip',
+      'curl',
+      'git',
       'dnsutils'
     ]:
     ensure => present,
