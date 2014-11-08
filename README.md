@@ -2,7 +2,7 @@
 
 The base image for the following Docker containers:
 
-  * [simpledrupalcloud/apache](https://registry.hub.docker.com/u/simpledrupalcloud/apache/)
+  * [simpledrupalcloud/httpd](https://registry.hub.docker.com/u/simpledrupalcloud/httpd/)
   * [simpledrupalcloud/redis](https://registry.hub.docker.com/u/simpledrupalcloud/redis/)
   * [simpledrupalcloud/php](https://registry.hub.docker.com/u/simpledrupalcloud/php/)
   * [simpledrupalcloud/dev](https://registry.hub.docker.com/u/simpledrupalcloud/dev/)
