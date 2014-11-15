@@ -1,4 +1,4 @@
-# docker-base-dev
+# docker-base
 
 The base image for the following Docker containers:
 
@@ -38,8 +38,7 @@ The base image for the following Docker containers:
     TMP="$(mktemp -d)" \
       && git clone http://git.simpledrupalcloud.com/simpledrupalcloud/docker-base.git "${TMP}" \
       && cd "${TMP}" \
-      && git checkout dev \
-      && sudo docker build -t simpledrupalcloud/base:dev . \
+      && sudo docker build -t simpledrupalcloud/base:latest . \
       && cd -
 
 ## License

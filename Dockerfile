@@ -1,4 +1,4 @@
-FROM simpledrupalcloud/supervisor:dev
+FROM simpledrupalcloud/supervisor:latest
 
 MAINTAINER Simple Drupal Cloud <support@simpledrupalcloud.com>
 
