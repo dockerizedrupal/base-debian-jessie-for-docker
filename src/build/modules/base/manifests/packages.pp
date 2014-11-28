@@ -7,7 +7,8 @@ class base::packages {
       'unzip',
       'curl',
       'git',
-      'dnsutils'
+      'dnsutils',
+      'socat'
     ]:
     ensure => present,
     require => Exec['apt-get update']
