@@ -12,7 +12,7 @@ class base::packages {
     ]:
     ensure => present,
     require => Exec['apt-get update'],
-    before => Exec['rm -rf /var/lib/apt/lists']
+    before => Exec['apt-get clean']
   }
 
   exec { 'apt-get clean':
