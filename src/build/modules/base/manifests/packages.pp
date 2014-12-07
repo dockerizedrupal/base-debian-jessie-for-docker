@@ -1,8 +1,4 @@
 class base::packages {
-  exec { 'apt-get update':
-    path => ['/usr/bin']
-  }
-
   package {[
       'unzip',
       'curl',
@@ -10,7 +6,6 @@ class base::packages {
       'dnsutils',
       'socat'
     ]:
-    ensure => present,
-    require => Exec['apt-get update']
+    ensure => present
   }
 }
