@@ -4,7 +4,9 @@ class base::packages {
       'curl',
       'git',
       'dnsutils',
-      'socat'
+      'socat',
+      'nano',
+      'vim',
     ]:
     ensure => present
   }
