@@ -6,7 +6,7 @@ class base::packages {
       'dnsutils',
       'socat',
       'nano',
-      'vim',
+      'vim'
     ]:
     ensure => present
   }
