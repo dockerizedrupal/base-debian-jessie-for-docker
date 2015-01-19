@@ -6,7 +6,9 @@ class base::packages {
       'dnsutils',
       'socat',
       'nano',
-      'vim'
+      'vim',
+      'procps',
+      'net-tools'
     ]:
     ensure => present
   }
