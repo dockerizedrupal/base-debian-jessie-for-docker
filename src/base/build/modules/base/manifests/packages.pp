@@ -8,7 +8,8 @@ class base::packages {
       'nano',
       'vim',
       'procps',
-      'net-tools'
+      'net-tools',
+      'telnet'
     ]:
     ensure => present
   }
