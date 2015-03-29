@@ -1,6 +1,6 @@
-FROM simpledrupalcloud/supervisor:latest
+FROM viljaste/supervisor:latest
 
-MAINTAINER Simple Drupal Cloud <support@simpledrupalcloud.com>
+MAINTAINER Jürgen Viljaste <j.viljaste@gmail.com>
 
 ENV TERM xterm
 ENV DEBIAN_FRONTEND noninteractive
