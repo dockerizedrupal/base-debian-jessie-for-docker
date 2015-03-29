@@ -6,7 +6,7 @@
       && git clone http://git.simpledrupalcloud.com/simpledrupalcloud/docker-base.git "${TMP}" \
       && cd "${TMP}" \
       && git checkout dev \
-      && sudo docker build -t simpledrupalcloud/base:dev . \
+      && sudo docker build -t viljaste/base:dev . \
       && cd -
 
 ## License
