@@ -9,7 +9,8 @@ class base::packages {
       'vim',
       'procps',
       'net-tools',
-      'telnet'
+      'telnet',
+      'multitail'
     ]:
     ensure => present
   }
