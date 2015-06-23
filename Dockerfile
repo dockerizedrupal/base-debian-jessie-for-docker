@@ -1,4 +1,4 @@
-FROM viljaste/supervisor:debian-jessie
+FROM viljaste/supervisor:latest
 
 MAINTAINER Jürgen Viljaste <j.viljaste@gmail.com>
 
