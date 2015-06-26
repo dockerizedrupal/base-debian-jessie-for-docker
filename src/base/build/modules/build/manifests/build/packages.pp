@@ -1,4 +1,4 @@
-class base::packages {
+class build::base::packages {
   package {[
       'unzip',
       'curl',
