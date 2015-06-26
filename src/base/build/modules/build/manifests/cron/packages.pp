@@ -1,4 +1,4 @@
-class base::cron::packages {
+class build::cron::packages {
   package {[
       'cron'
     ]:
