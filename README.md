@@ -3,10 +3,10 @@
 ## Build the image
 
     TMP="$(mktemp -d)" \
-      && GIT_SSL_NO_VERIFY=true git clone https://git.beyondcloud.io/viljaste/docker-base.git "${TMP}" \
+      && git clone https://github.com/dockerizedrupal/docker-base.git "${TMP}" \
       && cd "${TMP}" \
       && git checkout debian-jessie \
-      && sudo docker build -t viljaste/base:debian-jessie . \
+      && sudo docker build -t dockerizedrupal/base:debian-jessie . \
       && cd -
 
 ## License
