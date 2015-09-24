@@ -1,4 +1,4 @@
-FROM dockerizedrupal/supervisor-debian-jessie:1.0.3
+FROM dockerizedrupal/supervisor-debian-jessie:1.0.5
 
 MAINTAINER Jürgen Viljaste <j.viljaste@gmail.com>
 
