@@ -1,0 +1,3 @@
+base:
+  image: dockerizedrupal/base-debian-jessie:1.1.0
+  hostname: base
