@@ -1,6 +1,8 @@
 # docker-base-debian-jessie
 
-A base Docker image for most of the Docker images that are used in the [Dockerized Drupal](https://dockerizedrupal.com/) project.
+A base Docker image for most of the other Docker images that are used in the [Dockerized Drupal](https://dockerizedrupal.com/) project.
+
+This project is part of the [Dockerized Drupal](https://dockerizedrupal.com/) initiative.
 
 ## Run the container
 
