@@ -1,9 +1,9 @@
 {
-  "name": "docker-base-debian-jessie",
-  "version": "1.1.1",
+  "name": "base-debian-jessie-for-docker",
+  "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dockerizedrupal/docker-base-debian-jessie.git"
+    "url": "https://github.com/dockerizedrupal/base-debian-jessie-for-docker.git"
   },
   "license": "MIT",
   "dependencies": {
